@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.line{
+	height: 10px;
+	width: 1150px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: orange;
+}
+header{
+	width: 1150px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: #ffffff;
+}
+.logo{
+	float: left;
+	margin-top: 40px;
+	padding-right: 50px;
+	border-right: 3px solid #cccccc;
+}
+.title{
+	color: #f2ac04;
+	float: left;
+	font-size: 20px;
+	font-family: "Californian FB";
+	padding-top: 50px;
+	margin-left: 100px;
+}
+.subtitle{
+	float: left;
+	color: #929292;
+	margin-top: 80px;
+	margin-left: -290px;
+}
+.navigation{
+	width: 1150px;
+	height: 50px;
+	border-top: 3px solid #c3c3c3;
+	border-bottom: 3px solid #c3c3c3;
+	margin-left: 100px;
+}
+.menu > li{
+	display: inline;
+	float: left;
+	font-size: 20px;
+	font-family: "Swiss 721 BT";
+	color: #6b6b6b;
+	margin-left: 63px;
+	padding-top: 10px;
+}
+.menu > li:first-child{
+	margin-left: 50px;
+}
+.content{
+	margin-top: 100px;
+}
+.content_name{
+	margin-left: 100px;
+	color: #555656;
+	font-family: "Tahoma";
+}
+.box{
+	height: 300px;
+	width: 450px;
+	display: inline-block;
+}
+.box2{
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin-right: 250px;
+	padding-bottom: 500px;
+}
+.block{
+	width: 1150px;
+	margin-left: 100px;
+	padding-bottom: 70px;
+	border-bottom: 3px solid #cccccc;
+}
+
+.comment{
+	display: inline-block;
+	margin-left: 63px;
+	float: left;
+	width: 350px;
+	padding-bottom: 100px;
+	display: inline-block;
+}
+.comment:first-child{
+	margin-left: 100px;
+	padding-top: 127px;
+}
+.comment:last-child{
+	border-left: 1px solid #c3c3c3;
+	padding-left: 30px;
+	height: 260px;
+}
+.contact{
+	list-style: none;
+}
+.numbers{
+	float: right;
+	margin-right: 120px;
+	padding-top: 20px;
+}
+.contact>li{
+	border-bottom: 2px dotted #cccccc;
+}
+.feedback{
+	list-style: none;
+	padding-right: 40px;
+	border-right: 1px solid #c3c3c3;
+}
+.feedback>li{
+	border-bottom: 1px dotted #c3c3c3;
+	padding-top: 10px;
+}
+.date{
+	margin-bottom: 50px;
+	width: 30px;
+	color:orange;
+	display: inline;
+}
+.month{
+	padding-right: 45px;
+	width: 30px;
+	border-right: 2px solid #cccccc;
+	display: inline-block;
+}
+.first-text{
+	float: right;
+	margin-right: 72px;
+	font-weight: bold;
+}
+.second-text{
+	margin-bottom: 10px;
+	color: #cccccc;
+	margin-left: 75px;
+}
+.footer_title:after{
+	content: "------------------------------------------------------------------------------------------------------";
+}
+.footer_title:before{
+	content: "------------";
+}
+.lipsum{
+	text-align: center;
+}
+.footer{
+	padding-top: 550px;
+	margin-left: 100px;
+	width: 1170px;
+	border-bottom: 2px solid #c3c3c3;
+}
+.footer> img{
+	margin-left: 100px;
+}
+.pic_name{
+	margin-left: 100px;
+	width: 180px;
+	display: inline;
+	color: grey;
+	font-family: "Tahoma";
+}
+.left{
+	float: left;
+	padding-bottom: 40px;
+}
+.right{
+	float: right;
+	padding-bottom: 20px;
+}
+.button{
+	text-decoration: none;
+	margin-left: 290px;
+	padding: 10px;
+}
